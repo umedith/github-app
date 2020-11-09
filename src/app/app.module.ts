@@ -13,6 +13,7 @@ import { RouterModule } from '@angular/router';
 import { RoutingModule } from './app-routing.module';
 import { HttpClientModule } from '@angular/common/http';
 import { UpperCasePipe } from './uppercase.pipe';
+import { HighlightDirective } from './highlight.directive';
 
 
 
@@ -26,6 +27,7 @@ import { UpperCasePipe } from './uppercase.pipe';
     FormComponent,
     UserInfoComponent,
     UpperCasePipe,
+    HighlightDirective,
  
   
     
