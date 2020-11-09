@@ -13,7 +13,7 @@ import { RouterModule } from '@angular/router';
 import { RoutingModule } from './app-routing.module';
 import { HttpClientModule } from '@angular/common/http';
 import { UpperCasePipe } from './uppercase.pipe';
-import { StrikethroughDirective } from './strikethrough.directive';
+
 
 
 
@@ -26,7 +26,7 @@ import { StrikethroughDirective } from './strikethrough.directive';
     FormComponent,
     UserInfoComponent,
     UpperCasePipe,
-    StrikethroughDirective,
+ 
   
     
   ],
