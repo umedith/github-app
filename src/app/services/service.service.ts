@@ -21,7 +21,6 @@ export class ServiceService {
 
     githubUser(searchName) {
         interface ApiResponse {
-            // name: string;
             html_url: string;
             description: string;
             created_at: Date;

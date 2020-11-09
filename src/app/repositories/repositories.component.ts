@@ -4,7 +4,7 @@ import {Repository} from '../repository';
 @Component({
   selector: 'app-repositories',
   templateUrl: './repositories.component.html',
-    providers: [ServiceService],
+  providers: [ServiceService],
   styleUrls: ['./repositories.component.css']
 })
 export class RepositoriesComponent implements OnInit {
@@ -13,7 +13,7 @@ export class RepositoriesComponent implements OnInit {
     public searchRepo: string;
    
 
-    searchRepos(ange) {
+    searchRepos(any) {
         this.searchRepo = '';
 
     }
