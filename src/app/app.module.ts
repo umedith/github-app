@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { NgProgressModule } from '@ngx-progressbar/core';
-import { NgProgressHttpClientModule } from '@ngx-progressbar/http-client';
+// import { NgProgressModule } from '@ngx-progressbar/core';
+// import { NgProgressHttpClientModule } from '@ngx-progressbar/http-client';
 import { FormsModule } from '@angular/forms';
 import { ServiceService} from './services/service.service';
 import { AppComponent } from './app.component';
@@ -37,8 +37,8 @@ import { HighlightDirective } from './highlight.directive';
     RoutingModule,
     RouterModule,
     FormsModule,
-    NgProgressModule.forRoot(),
-    NgProgressHttpClientModule,
+    // NgProgressModule.forRoot(),
+    // NgProgressHttpClientModule,
     HttpClientModule,
   
 
