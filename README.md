@@ -22,7 +22,7 @@ So far there are no known bugs, don't hesitate to contact me if you fins any!
 
 ## Live site
 
-for the live website visit 
+for the live website visit https://umedith.github.io/github-app/
 
 ## Technologies Used
 
